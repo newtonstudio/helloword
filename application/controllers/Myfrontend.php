@@ -13,8 +13,8 @@ class Myfrontend extends CI_Controller {
 		        'queries' => TRUE
 		);
 
-		$this->output->set_profiler_sections($sections);
-		$this->output->enable_profiler(TRUE);
+		//$this->output->set_profiler_sections($sections);
+		$this->output->enable_profiler(false);
 
 	}
 	public function index(){
