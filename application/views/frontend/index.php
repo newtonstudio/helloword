@@ -1,5 +1,5 @@
 <!-- banner start -->
-<!-- <?=json_encode($_SERVER)?>-->
+<!-- <?php print_r($_SERVER)?>-->
 
 
 			<!-- ================ -->
