@@ -23,14 +23,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
+function isSecure() {
+  return
+    (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+    || $_SERVER['SERVER_PORT'] == 443;
+}
+
+$protocol = "http://";
+if(isSecure()) {
+	$protocol = "https://";
+}
+
 if(isset($_SERVER['HTTP_HOST'])) {
 	if($_SERVER['HTTP_HOST']=="myshopping.local"){
-		$config['base_url'] = "http://myshopping.local/";
+		$config['base_url'] = $protocol."myshopping.local/";
 	} else {
-		$config['base_url'] = "http://itea.ml/";
+		$config['base_url'] = $protocol."itea.ml/";
 	}
 } else {
-	$config['base_url'] = "http://itea.ml/";
+	$config['base_url'] = $protocol."itea.ml/";
 }
 
 /*
