@@ -27,10 +27,10 @@ if(isset($_SERVER['HTTP_HOST'])) {
 	if($_SERVER['HTTP_HOST']=="myshopping.local"){
 		$config['base_url'] = "http://myshopping.local/";
 	} else {
-		$config['base_url'] = "http://ec2-54-169-201-6.ap-southeast-1.compute.amazonaws.com/";
+		$config['base_url'] = "http://itea.ml/";
 	}
 } else {
-	$config['base_url'] = "http://ec2-54-169-201-6.ap-southeast-1.compute.amazonaws.com/";
+	$config['base_url'] = "http://itea.ml/";
 }
 
 /*

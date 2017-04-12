@@ -1,4 +1,5 @@
 <!-- banner start -->
+<!-- <?=json_encode($_SERVER)?>-->
 
 
 			<!-- ================ -->
