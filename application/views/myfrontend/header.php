@@ -18,10 +18,10 @@
 		<link rel="shortcut icon" href="<?=base_url('assets/template/images/favicon.ico')?>">
 
 		<!-- Web Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 
 		<!-- Bootstrap core CSS -->
 		<link href="<?=base_url('assets/template/bootstrap/css/bootstrap.css')?>" rel="stylesheet">
@@ -56,7 +56,7 @@
 
 		<!-- Custom css --> 
 		<link href="<?=base_url('assets/template/css/custom.css')?>" rel="stylesheet">
-		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<script src="//apis.google.com/js/platform.js" async defer></script>
 
 		<meta name="google-signin-client_id" content="955612680288-m8287a31k3ejdceehpsr466bg38bpa56.apps.googleusercontent.com">
 		<script>
